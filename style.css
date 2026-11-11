@@ -1,0 +1,11 @@
+.Tabela-produtos {
+    background-color: white;
+}
+
+th, tr {
+    border: solid 1px;
+}
+
+td {
+    border: dotted;
+}
