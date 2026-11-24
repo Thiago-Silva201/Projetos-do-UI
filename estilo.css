@@ -1,0 +1,103 @@
+/* Configurações gerais da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Caixa branca ao redor do formulário */
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 380px;
+}
+
+/* Remove a borda padrão feia dos fieldsets e dá espaçamento */
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+/* Título do formulário (Login / Cadastro) */
+legend {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Textos dos campos */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555555;
+  font-size: 14px;
+}
+
+/* Campos de digitação */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Garante que o padding não estoure a largura */
+  font-size: 14px;
+}
+
+/* Deixa os botões de rádio (Masculino/Feminino) na mesma linha */
+input[type="radio"] + label,
+label[for="masculino"],
+label[for="feminino"] {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* Botão de enviar (Login / Cadastrar) */
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Efeito ao passar o mouse no botão */
+input[type="submit"]:hover {
+  background-color: #0052a3;
+}
+
+/* Texto e link na parte de baixo */
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  margin-top: 15px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
